@@ -39,8 +39,10 @@ sudo pacman -S hyprland waybar rofi kitty swaync wlogout hyprpaper \
 Installer otomatis:
 - Backup config existing (timestamp-based)
 - Install semua config + entry point symlinks
+- Setup Hyprland session untuk SDDM/GDM
+- Opsi TTY auto-start (login di tty1 → langsung Hyprland)
 - Apply GTK theme, cursor, icon theme
-- Download wallpaper ke `~/.config/hypr/hyprpaper.d/default.png`
+- Install wallpaper ke `~/.config/hypr/hyprpaper.d/default.png`
 
 ## Uninstall
 

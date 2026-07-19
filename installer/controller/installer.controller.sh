@@ -6,6 +6,7 @@ source "$SOURCE_DIR/installer/service/dependency.service.sh"
 source "$SOURCE_DIR/installer/service/link.service.sh"
 source "$SOURCE_DIR/packages/service/packages.service.sh"
 source "$SOURCE_DIR/gtk/controller/gtk.controller.sh"
+source "$SOURCE_DIR/installer/service/session.service.sh"
 
 install_run() {
     print_header
@@ -60,6 +61,9 @@ install_run() {
     done
 
     print_summary "${results[@]}"
+
+    log "Configuring system session ..."
+    session_apply_all
 
     log "Applying GTK settings ..."
     gtk_apply_all
