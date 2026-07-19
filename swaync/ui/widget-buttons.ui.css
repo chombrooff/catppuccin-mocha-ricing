@@ -1,0 +1,23 @@
+.widget-buttons-grid {
+  background: @surface0;
+  border: 1px solid @surface1;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 4px 0;
+}
+
+.widget-buttons-grid > .widget-buttons-grid-item {
+  background: @surface1;
+  border-radius: 8px;
+  color: @text;
+  font-size: 18px;
+  padding: 8px;
+  margin: 2px;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.widget-buttons-grid > .widget-buttons-grid-item:hover {
+  background: @mauve;
+  color: @base;
+}

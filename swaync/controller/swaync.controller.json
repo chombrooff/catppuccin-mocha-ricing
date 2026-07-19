@@ -1,0 +1,50 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "right",
+  "positionY": "top",
+  "control-center-margin-top": 8,
+  "control-center-margin-bottom": 8,
+  "control-center-margin-right": 8,
+  "control-center-margin-left": 0,
+  "control-center-width": 380,
+  "control-center-height": 600,
+  "fit-to-screen": true,
+  "layer": "overlay",
+  "cssPriority": "application",
+  "notification-icon-size": 32,
+  "notification-body-image-height": 120,
+  "notification-body-image-width": 200,
+  "timeout": 3,
+  "timeout-low": 3,
+  "timeout-critical": 0,
+  "notification-window-width": 380,
+  "keyboard-shortcuts": true,
+  "image-visibility": "when-available",
+  "image-error-visibility": "when-available",
+  "widgets": [
+    "title",
+    "notifications-group",
+    "dnd",
+    "volume",
+    "buttons-grid"
+  ],
+  "widget-config": {
+    "title": {
+      "text": "Notifications",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "dnd": { "text": "Do Not Disturb" },
+    "volume": { "label": "Volume" },
+    "buttons-grid": {
+      "actions": [
+        { "label": "󰐥", "command": "systemctl poweroff" },
+        { "label": "󰜉", "command": "systemctl reboot" },
+        { "label": "󰍃", "command": "hyprctl dispatch exit" },
+        { "label": "󰌾", "command": "loginctl lock-session" },
+        { "label": "", "command": "hyprctl dispatch workspace 1" },
+        { "label": "󰄀", "command": "grimblast copysave area" }
+      ]
+    }
+  }
+}

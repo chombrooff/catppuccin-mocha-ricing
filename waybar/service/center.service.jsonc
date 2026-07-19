@@ -1,0 +1,10 @@
+{
+  "clock": {
+    "format": "{:%A, %d %B  %H:%M}",
+    "format-alt": "{:%Y-%m-%d}",
+    "tooltip": true,
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "interval": 30,
+    "on-click-right": "zenity --calendar 2>/dev/null || notify-send \"$(date)\""
+  }
+}

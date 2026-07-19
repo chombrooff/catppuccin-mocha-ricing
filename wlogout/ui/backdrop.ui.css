@@ -1,0 +1,4 @@
+window {
+  background-color: alpha(@base, 0.8);
+  backdrop-filter: blur(10px);
+}

@@ -1,0 +1,26 @@
+#clock {
+  margin: 0 8px;
+  color: @text;
+  font-weight: 500;
+}
+
+#cpu, #memory, #pulseaudio, #network {
+  margin: 0 4px;
+  padding: 2px 8px;
+  border-radius: 8px;
+  background: @surface0;
+}
+
+#cpu { color: @green; }
+#cpu.warning { color: @yellow; }
+#cpu.critical { color: @red; }
+
+#memory { color: @teal; }
+#memory.warning { color: @yellow; }
+#memory.critical { color: @red; }
+
+#pulseaudio { color: @blue; }
+#pulseaudio.muted { color: @red; }
+
+#network { color: @sapphire; }
+#network.disconnected { color: @overlay0; }

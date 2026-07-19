@@ -1,0 +1,36 @@
+#workspaces {
+  margin-left: 8px;
+}
+
+#workspaces button {
+  all: initial;
+  min-width: 20px;
+  padding: 2px 6px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  background: @surface0;
+  color: @overlay0;
+  font-size: 11px;
+  transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+  background: @mauve;
+  color: @base;
+  min-width: 28px;
+}
+
+#workspaces button.urgent {
+  background: @red;
+  color: @base;
+}
+
+#workspaces button.empty {
+  background: transparent;
+  color: @surface1;
+}
+
+#workspaces button:hover {
+  background: @surface1;
+  color: @text;
+}

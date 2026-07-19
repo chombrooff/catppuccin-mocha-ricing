@@ -1,0 +1,20 @@
+listview {
+  margin: 8px 0 0 0;
+  columns: 1;
+  lines: 10;
+  spacing: 4px;
+  cycle: false;
+  dynamic: true;
+}
+
+scrollbar {
+  width: 4px;
+  background-color: @mantle;
+  handle-color: @surface1;
+  border-radius: 2px;
+}
+
+sidebar {
+  background-color: @mantle;
+  border-radius: 10px;
+}

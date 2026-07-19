@@ -1,0 +1,42 @@
+element {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 8px;
+  text-color: @text;
+}
+
+element normal.normal {
+  background-color: transparent;
+}
+
+element selected {
+  background-color: @surface0;
+  text-color: @text;
+  border: 1px solid @surface1;
+}
+
+element-text {
+  text-color: inherit;
+  vertical-align: 0.5;
+}
+
+button {
+  background-color: @surface0;
+  border-radius: 8px;
+  text-color: @text;
+}
+
+button selected {
+  background-color: @mauve;
+  text-color: @base;
+}
+
+message {
+  background-color: @mantle;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+message-text {
+  text-color: @subtext0;
+}

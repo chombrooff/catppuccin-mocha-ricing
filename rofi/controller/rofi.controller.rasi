@@ -1,0 +1,21 @@
+configuration {
+  modi: "drun,run,window";
+  font: "JetBrainsMono Nerd Font 12";
+  show-icons: false;
+  terminal: "kitty";
+  drun-display-format: "{name}";
+  location: 0;
+  width: 500;
+  lines: 12;
+  columns: 1;
+  line-margin: 8;
+  padding: 16;
+  spacing: 8;
+  border: 0;
+}
+
+@theme "model/colors.model.rasi"
+@theme "ui/window.ui.rasi"
+@theme "ui/inputbar.ui.rasi"
+@theme "ui/listview.ui.rasi"
+@theme "ui/element.ui.rasi"

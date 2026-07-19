@@ -1,0 +1,6 @@
+[
+  { "label": "lock",     "action": "loginctl lock-session",     "text": "󰌾", "key": "l" },
+  { "label": "logout",   "action": "hyprctl dispatch exit",     "text": "󰍃", "key": "e" },
+  { "label": "reboot",   "action": "systemctl reboot",          "text": "󰜉", "key": "r" },
+  { "label": "shutdown", "action": "systemctl poweroff",        "text": "󰐥", "key": "s" }
+]

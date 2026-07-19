@@ -1,0 +1,10 @@
+tooltip {
+  background: @mantle;
+  border: 1px solid @surface1;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+tooltip label {
+  color: @text;
+}

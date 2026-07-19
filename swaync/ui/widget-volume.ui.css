@@ -1,0 +1,16 @@
+.widget-volume {
+  background: @surface0;
+  border: 1px solid @surface1;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 4px 0;
+}
+
+.widget-volume > slider {
+  background: @surface2;
+  border-radius: 8px;
+}
+
+.widget-volume > slider:highlight {
+  background: @blue;
+}
