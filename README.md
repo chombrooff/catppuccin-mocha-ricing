@@ -21,19 +21,20 @@ Minimal, clean, intentional desktop environment for Arch Linux + Hyprland. Terin
 | **Wlogout** | Power menu | 4 buttons: lock, logout, reboot, shutdown |
 | **Hyprpaper** | Wallpaper | static gradient, auto-installed |
 
-## Prerequisites
+## Quick Install
 
 ```bash
-sudo pacman -S hyprland waybar rofi kitty swaync wlogout hyprpaper \
-  papirus-icon-theme bibata-cursor-theme ttf-jetbrains-mono-nerd
+git clone https://github.com/chombrooff/catppuccin-mocha-ricing.git
+cd catppuccin-mocha-ricing
+bash install.sh
 ```
 
-## Install
+## Install Options
 
 ```bash
-./install.sh                    # copy mode (default)
-./install.sh --symlink          # symlink mode (perubahan langsung teraplikasi)
-./install.sh --prefix ~/custom  # custom prefix
+bash install.sh                    # copy mode (default)
+bash install.sh --symlink          # symlink mode (perubahan langsung teraplikasi)
+bash install.sh --prefix ~/custom  # custom prefix
 ```
 
 Installer otomatis:
