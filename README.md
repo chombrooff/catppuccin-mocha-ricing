@@ -127,9 +127,3 @@ bash test/integration_test.sh     # 115 tests
 bash test/unit_test.sh            # 29 tests
 ```
 
-## Tech Specs
-
-- `.agents/PRD.md` — Product Requirement Document v2.0
-- `.agents/2-TECH-SPEC.md` — Technical Specification
-- `.agents/3-TASKS.md` — Task list
-- `.agents/4-LEGACY-DECODER.md` — Legacy code analysis
